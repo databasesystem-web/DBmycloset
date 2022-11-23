@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/button.css">
+  
   <script defer src="../js/draganddrop.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
   <script src="../js/jquery-3.6.0.min.js"></script> 
@@ -33,8 +34,14 @@
           <li class="nav-item mag">
             <a class="nav-link" href="../html/codygalaryspring.html">CODY</a>
           </li>
-          <li class="nav-item mag">
-            <a class="nav-link" href="../html/drag and drop.html">CUSTOM</a>
+          <li class="nav-item dropdown">
+            <!-- 드롭다운 메뉴-->
+            <a class="nav-link dropdown-toggle" href="../html/shop_main.html" data-toggle="dropdown">SHOP</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                <li><a class="dropdown-item" href="#">Link 3</a></li>
+            </ul>
           </li>
           <li class="nav-item mag">
             <a class="nav-link" href="../html/used_trade.html">USED TRADE</a>
@@ -57,68 +64,56 @@
 <div class="navimargin" style="margin-top :113px;"></div>
 
   <div class="closet_inner text-center">
-    <div class="sub_logo">
-      <img src="../image/custom.png" alt="">
-    </div>
-   
-    <div class="container-fluid text-center pd-zero">
-      <div class="row infosize" style="padding-top: 50px;" >
-        <div class="col-sm-12">
-         <img src="../image/custominfo.png" alt="">
-        </div>
-      </div>
-      <div class="row infosize" style="padding-top: 50px;" >
-        <div class="col-sm-12">
-          <h1 id="mycustom">IT`S ALL YOU</h1><br><br><br><br><br>
-          <span id="mycustom2">SPECIAL BENEFITS OF CLOSET CUSTOMIZATION.</span>
-          <br><br>
-          <p id="mycustom"> OF <span id="mycustom3">YOU</span> &nbsp; BY <span id="mycustom3">YOU</span> &nbsp; FOR <span id="mycustom3">YOU</span></p>
-        </div>
-      </div>
-    </div>
-  </div>  
-  <div class="closet_subinner" style="margin-top:100px;">
-    <div class="customimgsize">
-      <div class="inlinest">
-        <div class="textbtn">
-          <img src="../image/width.png" alt="" style="padding-right: 10px;">
-          <input type="text" id="width_cloth" placeholder="width" class="inputtxt">
-        </div>
-      </div>
-      <div class="inlinest">
-        <div class="textbtn">
-          <img src="../image/height.png" alt="" style="padding-right: 10px;">
-          <input type="text" id="height_cloth" placeholder="height" class="inputtxt">
-        </div>
-       </div>
-       <div class="inlinest">
-          <div class="textbtn">
-            <img src="../image/opacity.png" alt="" style="padding-right: 10px;">
-            <input type="text" id="opacity_cloth" placeholder="opacity_0~1" class="inputtxt">
-          </div>
-        </div>
-    </div>
-    <div>
-      <div class="filebox">
-        <label for="fileUpload">File</label>
-        <input class="upload-name" value="Attachments" placeholder="Attachments">
-        <input type="file" id="fileUpload" accept="image/*">
-      </div>
-      <button class="btntxt"id = "delete" onclick="deletefuc();" style="margin-left: 50px;">Delete!!</button>
-   </div>
-    <div style="height: 400px;">
-      <div style="width: 650px; float: left;">
-        <div id="list" class="droppable"></div>
-      </div>
-      <div style="width: 650px; float: right;">
-        <div id="capture_cody"></div>
-      </div>
-    </div>
-    
-    <div class="button2" style="padding-top:50px; padding-bottom: 200px;">
-      <button style="margin-right: 50px;" class="button"id="captureBtn">Capture!</button>
-      <button class="button" id="downBtn" >Download</button> 
-     
+    <img class="hero_header" src="../image/shop_shoes/shoes_bg.PNG">
+    <h1>Our new Products</h1>
+    <div class="products">
+      <a href="#">
+        <img src="../image/shop_shoes/1.PNG">
+        <p>Sunglasses</p>
+        <p class="price">49,000</p>
+      </a>
+      <a href="#">
+        <img src="../image/shop_shoes/2.PNG">
+        <p>Tassel Loafer</p>
+        <p class="price">89,000</p>
+      </a>
+      <a href="#">
+        <img src="../image/shop_shoes/3.PNG">
+        <p>Begie Bag</p>
+        <p class="price">69,000</p>
+      </a>
+      <a href="#">
+        <img src="../image/shop_shoes/4.PNG">
+        <p>Sneakers</p>
+        <p class="price">79,000</p>
+      </a>
+      <a href="../html/shop_detail.html">
+        <img src="../image/shop_shoes/5/5.PNG">
+        <p>Slippers</p>
+        <p class="price">29,000</p>
+      </a>
+      <a href="#">
+        <img src="../image/shop_shoes/6.PNG">
+        <p>Wrist Watch</p>
+        <p class="price">99,000</p>
+      </a>
+      <a href="#">
+        <img src="../image/shop_shoes/7.PNG">
+        <p>Fedora Hat</p>
+        <p class="price">39,000</p>
+      </a>
+      <a href="#">
+        <img src="../image/shop_shoes/8.PNG">
+        <p>Classic Loafer</p>
+        <p class="price">99,000</p>
+      </a>
+      <a href="#">
+        <img src="../image/shop_shoes/9.PNG">
+        <p>Pink Bag</p>
+        <p class="price">79,000</p>
+      </a>
+      
+      <div class="clearfix"></div>
     </div>
     
   </div>
