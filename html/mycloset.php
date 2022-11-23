@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="../css/mycloset.css">
+  <link rel="stylesheet" href="../css/mypage.css">
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/button.css">
   <!--<script defer src="../js/mycloset.js"></script>-->
